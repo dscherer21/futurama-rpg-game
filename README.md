@@ -1,1 +1,1 @@
-# furturama-rpg-game
+# futurama-rpg-game
