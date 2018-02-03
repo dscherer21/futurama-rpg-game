@@ -5,10 +5,15 @@ body {
   background-repeat: no-repeat;
   background-color: teal;
   font-size: 20px;
+  font-family: 'Geo', sans-serif;
 }
 
 hr {
   opacity: 0;
+}
+
+h1 {
+  font-family: 'Bungee Inline', cursive;
 }
 
 #prologueCard {
