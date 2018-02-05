@@ -14,7 +14,9 @@
     <script rel="javascript" type="text/javascript" src="assets/javascript/game.js"></script>
 
   </head>
+
   <body alt="Planet Express Building">
+    
     <hr>
 
     <header class="container">
@@ -27,7 +29,10 @@
               <h2>A Role-Playing Game</h2>
             </div>
             <!--Background Audio Play and Pause buttons-->
-            <div class="panel-body">Panel Content</div>
+            <div class="panel-body">
+              <button class="btn btn-info" id="playMusic">Play Music</button>
+              <button class="btn btn-warning" id="pauseMusic">Pause</button>
+            </div>
           </div>
         </div>
       </div>
@@ -54,7 +59,11 @@
             <!--Fighting Character Panel Heading-->
             <div class="panel-heading">Choose your Character!</div>
             <!--Fighting Character Panel Content-->
-            <div class="panel-body">Panel Content</div>
+            <div class="panel-body">
+              <!--This is where the Player will select the Toon they want to play as.-->
+              <div class="row" id="toonSelection">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -65,7 +74,10 @@
             <!--Fighting Character Panel Heading-->
             <div class="panel-heading">Chosen Character:</div>
             <!--Fighting Character Panel Content-->
-            <div class="panel-body">Panel Content</div>
+            <div class="panel-body">
+              <div class="row" id="chosenToon">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -76,7 +88,10 @@
             <!--Fighting Character Panel Heading-->
             <div class="panel-heading">Defenders:</div>
             <!--Fighting Character Panel Content-->
-            <div class="panel-body">Panel Content</div>
+            <div class="panel-body">
+              <div class="row" id="defendingToons">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -87,18 +102,22 @@
             <!--Fighting Character Panel Heading-->
             <div class="panel-heading">You are fighting:</div>
             <!--Fighting Character Panel Content-->
-            <div class="panel-body">Panel Content</div>
+            <div class="panel-body">
+              <div class="row" id="chosenOpponent">
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <!--Attack button-->
       <div class="row">
         <div class="col-sm-12">
-          <button class="btn btn-danger col-sm-2 col-sm-offset-1">Fight!</button>
+          <button class="btn btn-danger col-sm-2 col-sm-offset-1" id="attackButton">Fight!</button>
         </div>
       </div>
+      <hr>
       <!--Game Message Area-->
-      <div class="row">
+      <div class="row" id="messageArea">
         <div class="col-sm-12" id="gameMessage">
         </div>
       </div>

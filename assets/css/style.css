@@ -16,6 +16,18 @@ h1 {
   font-family: 'Bungee Inline', cursive;
 }
 
+.jumbotron{
+  background-color: rgba(43,111,150,0);
+}
+
+#playMusic {
+  margin: 0 4px;
+}
+
+#pauseMusic {
+  margin: 0 4px;
+}
+
 #prologueCard {
   position: absolute;
   z-index: 2;
@@ -33,4 +45,21 @@ h1 {
 
 #startGame {
   font-size: 22px;
+}
+
+.btn {
+  font-size: 24px;
+}
+
+.character {
+  width: 23%;
+  height: auto;
+  display: inline-block;
+  margin: 6px;
+}
+
+#messageArea {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
 }
