@@ -12,6 +12,8 @@ hr {
   opacity: 0;
 }
 
+
+
 h1 {
   font-family: 'Bungee Inline', cursive;
 }
@@ -31,16 +33,22 @@ h1 {
 #prologueCard {
   position: absolute;
   z-index: 2;
-  margin-left: 25%;
-  margin-top: -10%
+  margin-left: 10%;
+  margin-top: -17%;
+  width: 120%;
 }
 
 .card {
   color: white;
-  border: 2px solid black;
+  border: 1px solid black;
   margin: 20px;
   padding: 20px;
   background-color: teal;
+}
+
+.card-img-top {
+  width: 95%;
+  height: auto;
 }
 
 #startGame {
@@ -51,11 +59,37 @@ h1 {
   font-size: 24px;
 }
 
+.panel-default>.panel-heading {
+  background-color: rgba(45,128,150,0);
+  color: yellow;
+}
+
+.panel-default {
+  background: rgba(45,128,150,0);
+  color: yellow;
+  border: none;
+}
+
+span {
+  background-color: yellow;
+  color: black;
+}
+
 .character {
-  width: 23%;
+  width: 16%;
   height: auto;
   display: inline-block;
   margin: 6px;
+}
+
+.character-name {
+  background-color: yellow;
+  color: black;
+}
+
+.character-health{
+  background-color: yellow;
+  color: black;
 }
 
 #messageArea {

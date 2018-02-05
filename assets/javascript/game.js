@@ -7,14 +7,14 @@ $('#startGame').click(function() {
 });
 
 //Audio Controls
-var audio = new Audio('../audio/futuramaThemeMusic.mp3');
+var audio = new Audio('assets/audio/futuramaThemeMusic.mp3');
 //Play Audio
-$('#playMusic').click(function() {
-    audio.play;
+$('#playMusic').on('click', function() {
+    audio.play();
 });
 //Pause Audio
-$('#pauseMusic').click(function() {
-    audio.pause;
+$('#pauseMusic').on('click', function() {
+    audio.pause();
 });
 
 //Array of Playable Characters
