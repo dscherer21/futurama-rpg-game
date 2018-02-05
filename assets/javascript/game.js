@@ -6,18 +6,16 @@ $('#startGame').click(function() {
   $('#prologueCard').hide();
 });
 
-//audio clips
-var audioElement = document.createElement("audio");
- audioElement.setAttribute("src", "../audio/futuramaThemeMusic.mp3");
-
- // Play Theme Button
- $("#playMusic").on("click", function() {
-       audioElement.play();
- });
- // Pause Button
- $("#pauseMusic").on("click", function() {
-   audioElement.pause();
- });
+//Audio Controls
+var audio = new Audio('../audio/futuramaThemeMusic.mp3');
+//Play Audio
+$('#playMusic').click(function() {
+    audio.play;
+});
+//Pause Audio
+$('#pauseMusic').click(function() {
+    audio.pause;
+});
 
 //Array of Playable Characters
 let characters = {
