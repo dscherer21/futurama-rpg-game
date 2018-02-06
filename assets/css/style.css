@@ -6,6 +6,9 @@ body {
   background-color: teal;
   font-size: 30px;
   font-family: 'Geo', sans-serif;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
 
 hr {
@@ -35,7 +38,7 @@ h1 {
   z-index: 2;
   margin-left: 10%;
   margin-top: -17%;
-  width: 120%;
+  border-radius: 10px;
 }
 
 .card {
