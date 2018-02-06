@@ -204,7 +204,7 @@ var renderOne = function(character, renderArea, makeChar) {
         killCount++;
         if (killCount >= 3) {
           renderMessage("clearMessage");
-          restartGame("You Won!!!! GAME OVER!!!");
+          restartGame("You Won! Sweet, Sweet Procreation will be had!");
         }
       }
       turnCounter++;
